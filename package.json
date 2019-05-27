@@ -1,0 +1,27 @@
+{
+  "name": "koa-sf-starter",
+  "version": "1.0.0",
+  "description": "Scaffold Koa app with jsforce.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "nodemon app.js"
+  },
+  "keywords": [
+    "koa",
+    "salesforce",
+    "jsforce"
+  ],
+  "author": "Ankit Taneja",
+  "license": "ISC",
+  "dependencies": {
+    "jsforce": "^1.9.1",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-ejs": "^4.2.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
