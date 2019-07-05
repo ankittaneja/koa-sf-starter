@@ -17,9 +17,9 @@ render(app, {
   cache: false,
   debug: false
 });
-
-router.get('/', async (ctx, next) => {
-   ctx.body = 'Hello World!';
+// Home Route
+router.get('/', async ctx => {
+  await ctx.render('index');
 });
 
 var username = '';
